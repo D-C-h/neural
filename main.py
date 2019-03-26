@@ -8,14 +8,20 @@ import numpy as np
 def activate(x):
   return max(0,x)
 
-#neuron class with value and layer(maybe layer can be removed)
+#setting data
+x=np.array([
+        [1,1,0],
+        [1,0,1],
+        [0,0,0],
+        [1,1,1],
+        [0,0,1]
+    ])
 
-class Neuron:
-  def __init__(self, value,layer):
-    self.value = value
-    self.layer = layer
-  
-class Link:
-  def __init__(self,weight)
- 
-    
+y=np.array([1,1,1,0,1])
+
+#init layer i , h , o
+i = np.empty([3,1])
+h = np.empty([2,1])
+o = np.empty([1,1])
+
+
