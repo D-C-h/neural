@@ -24,4 +24,9 @@ i = np.empty([3,1])
 h = np.empty([2,1])
 o = np.empty([1,1])
 
+w1 = np.empty([2.3])
+w2 = mp.empty([1,2])
+
+b1 = np.empty([2,1])
+b2 = np.empty([1,1])
 
